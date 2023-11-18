@@ -2,7 +2,7 @@
 export default function Home() {
   return (
     <div className="h1-bold">
-      <h1 className="text-9xl h1-bold  font-sans text-center m-96">Geist.</h1> </div>
+      <h1 className="h1-bold m-96  text-center font-sans text-9xl">Geist.</h1> </div>
   
   );
 }
