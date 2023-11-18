@@ -15,6 +15,10 @@ module.exports = {
   },
   },
   extend: {
+    fontFamily: {
+      sans: ['var(--font-geist-sans)'],
+      mono: ['var(--font-geist-mono)'],
+    },
   colors: {
   primary: {
   500: "#FF7000",
@@ -37,10 +41,7 @@ module.exports = {
   },
   "accent-blue": "#1DA1F2",
   },
-  fontFamily: {
-  inter: ["var(--font-inter)"],
-  spaceGrotesk: ["var(--font-spaceGrotesk)"],
-  },
+  
   boxShadow: {
 
   "light-200": "10px 10px 20px 0px rgba(218, 213, 213, 0.10)",
