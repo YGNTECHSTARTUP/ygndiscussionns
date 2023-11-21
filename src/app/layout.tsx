@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { GeistSans } from "geist/font/sans";
 import {GeistMono} from "geist/font/mono"
+import { ClerkProvider } from '@clerk/nextjs';
 import Navbar from '@/comp/Navbar';
 import React from 'react'
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    <ClerkProvider>
     <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
 
       <body >
         <Navbar/>
         {children}</body>
     </html>
+    </ClerkProvider>
   )
 }
