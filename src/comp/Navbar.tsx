@@ -10,14 +10,14 @@ import ygn from '../assets/images/site-logo.svg'
 // import { Button } from '@/components/ui/button';
 const Navbar = () => {
   return (
-  <nav className='flex justify-around bg-destructive h-16 p-2'>
+  <nav className='flex justify-around  h-16 p-2 border-b-2 border-muted-foreground'>
     <ul className='flex justify-start'>
       <li className='p-2'>
         <Link className='flex -ml-11' href={'/'}>
-        <Image alt="ygn" height={26} width={26} src={ygn} className='invert contrast-100'/>
-          <span className=' text-3xl text-popover-foreground font-sans font-extrabold'>
+        <Image alt="ygn" height={26} width={26} src={ygn} className=' contrast-100'/>
+          <span className=' text-3xl text-primary  font-sans font-extrabold'>
           Ygn  </span>
-          <span className='mt-2 text-muted text-xl font-sans font-bold'>Discussions</span></Link>
+          <span className='mt-2 text-popover-foreground text-xl font-sans font-bold'>Discussions</span></Link>
       </li>
      
     </ul>
