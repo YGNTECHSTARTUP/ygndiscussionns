@@ -8,11 +8,11 @@ import { dark } from '@clerk/themes';
 // import { Button } from '@/components/ui/button';
 const Navbar = () => {
   return (
-  <nav className='flex justify-around bg-accent-foreground h-16 p-2'>
+  <nav className='flex justify-around bg-destructive h-16 p-2'>
     <ul className='flex justify-start'>
       <li className='p-2'>
         <Link href={'/'}>
-          <span className='text-3xl text-primary font-sans font-extrabold'>
+          <span className='text-3xl text-popover-foreground font-sans font-extrabold'>
           Ygn  </span>
           <span className='text-muted text-2xl font-sans font-bold'>Discussions</span></Link>
       </li>

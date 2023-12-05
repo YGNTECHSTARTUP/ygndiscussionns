@@ -28,7 +28,7 @@ export default function RootLayout({
 
 <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
 
-<body className='overflow-hidden' >
+<body className='overflow-hidden bg-background' >
   <ThemeProvider  attribute="class"
             defaultTheme="system"
             enableSystem

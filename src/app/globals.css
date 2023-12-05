@@ -74,7 +74,7 @@ body{
     @apply border-border;
   }
   body {
-    @apply bg-foreground text-foreground;
+    @apply bg-background text-foreground;
   }
   .middleh1{
    @apply flex justify-center items-center min-h-screen w-screen font-sans text-9xl;
