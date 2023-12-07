@@ -12,6 +12,7 @@ import {
 // import Navcontent from './Navcontent'
 import { SignedOut } from '@clerk/nextjs'
 import { Button } from '@/components/ui/button'
+import Navcontent from './Navcontent'
 
 const MobNav = () => {
   return (
@@ -34,9 +35,9 @@ const MobNav = () => {
           <span className='mt-2 font-sans text-xl font-bold text-popover-foreground'>Discussions</span></Link>
          
       </div>
-      {/* <SheetClose>
+      <SheetClose>
       <Navcontent/>
-    </SheetClose> */}
+    </SheetClose>
      <SignedOut>
       
       <SheetClose  asChild >
