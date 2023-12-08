@@ -7,6 +7,7 @@ import { dark } from '@clerk/themes';
 import MobNav from './MobNav';
 import Image from 'next/image'
 import ygn from '../assets/images/site-logo.svg'
+import Searchheader from './Searchheader';
 // import { Button } from '@/components/ui/button';
 const Navbar = () => {
   return (
@@ -21,6 +22,9 @@ const Navbar = () => {
       </li>
      
     </ul>
+    <div className='hidden mt-2 sm:block '>
+      <Searchheader/>
+    </div>
     <div className=' flex space-x-4  mt-[5px]' >
     <ModeToggle/>
    <div className=' outline-primary '>
