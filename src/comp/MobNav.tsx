@@ -7,7 +7,7 @@ import {
     SheetClose,
     SheetTrigger,
   } from "@/components/ui/sheet"
-  import ygn from '../assets/images/site-logo.svg'
+  // import ygn from '../assets/images/site-logo.svg'
   import Link from 'next/link'
   import ham from "../assets/icons/hamburger.svg"
   import Image from 'next/image'
@@ -34,7 +34,7 @@ const MobNav = () => {
     <div className='flex justify-center border-b-2 border-muted-foreground'>
       <SheetClose asChild>
       <Link className='-ml-5 flex' href={'/'}>
-        <Image alt="ygn" height={26} width={26} src={ygn} />
+        {/* <Image alt="ygn" height={26} width={26} src={ygn} /> */}
           <span className=' font-sans text-3xl  font-extrabold text-primary'>
           Ygn  </span>
           <span className='mt-2 font-sans text-xl font-bold text-popover-foreground'>Discussions</span></Link>
@@ -52,7 +52,7 @@ const MobNav = () => {
      
         <Link href={'/sign-in'}>
           
-          <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground px-32 text-muted hover:bg-primary hover:text-popover-foreground' variant='destructive' >Sign In</Button>
+          <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground px-32 text-muted hover:bg-card hover:text-primary' variant='destructive' >Sign In</Button>
           
       </Link>
     
@@ -63,7 +63,7 @@ const MobNav = () => {
      
       <Link href={'/sign-up'}>
         
-        <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground  text-muted hover:bg-primary hover:text-popover-foreground' variant='destructive' >Sign Up</Button>
+        <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground  text-muted hover:bg-card hover:text-primary' variant='destructive' >Sign Up</Button>
         
     </Link>
   

@@ -19,7 +19,7 @@ const Navcontent = () => {
         href={link.route}>
           
        
-            <Button className="ml-3 mt-4 w-80 border-2 border-primary bg-card-foreground px-32 text-muted  hover:bg-primary hover:text-popover-foreground active:ring-2 active:ring-primary-foreground " variant='destructive' >
+            <Button className="ml-3 mt-4 w-80 border-2 border-primary bg-card-foreground px-32 text-muted  hover:bg-card hover:text-primary active:ring-2 active:ring-primary-foreground " variant='destructive' >
           
               {
                 

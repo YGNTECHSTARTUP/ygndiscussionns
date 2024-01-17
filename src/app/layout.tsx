@@ -7,6 +7,7 @@ import Navbar from '@/comp/Navbar';
 import React from 'react'
 import { ThemeProvider } from '@/components/Theme-Provider';
 import './globals.css'
+import LeftSidebar from '@/comp/LeftSidebar';
 
 
 
@@ -34,6 +35,10 @@ export default function RootLayout({
             enableSystem
             disableTransitionOnChange>
   <Navbar/>
+  <div>
+  {/* <LeftSidebar/> */}
+  </div>
+
   {children}
   </ThemeProvider>
 
