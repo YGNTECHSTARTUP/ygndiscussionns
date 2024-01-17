@@ -52,7 +52,7 @@ const MobNav = () => {
      
         <Link href={'/sign-in'}>
           
-          <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground px-32 text-muted hover:bg-card hover:text-primary' variant='destructive' >Sign In</Button>
+          <Button  className='ml-3 mt-4 w-64 sm:w-80  border-2 border-primary bg-card-foreground px-32 text-muted hover:bg-card hover:text-primary'  >Sign In</Button>
           
       </Link>
     
@@ -63,7 +63,7 @@ const MobNav = () => {
      
       <Link href={'/sign-up'}>
         
-        <Button className='ml-3 mt-4 w-80  border-2 border-primary bg-card-foreground  text-muted hover:bg-card hover:text-primary' variant='destructive' >Sign Up</Button>
+        <Button className='ml-3 mt-4 w-64 sm:w-80  border-2 border-primary bg-card-foreground  text-muted hover:bg-card hover:text-primary'  >Sign Up</Button>
         
     </Link>
   

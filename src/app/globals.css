@@ -6,8 +6,39 @@
   * {
     @apply border-border;
   }
+  /* body{
+    bg-gradient-to-b from-gray-300 via-[#d0bdebfc] to-gray-400
+  } */
+
+  @layer components {
+    body {
+      background-image: linear-gradient(
+        235deg,
+        hsl(265deg 53% 83%) 0%,
+        hsl(241deg 64% 87%) 4%,
+        hsl(223deg 77% 88%) 8%,
+        hsl(213deg 81% 89%) 14%,
+        hsl(208deg 82% 90%) 19%,
+        hsl(213deg 84% 90%) 25%,
+        hsl(218deg 85% 90%) 31%,
+        hsl(225deg 83% 90%) 37%,
+        hsl(217deg 92% 89%) 43%,
+        hsl(202deg 94% 88%) 50%,
+        hsl(190deg 81% 89%) 57%,
+        hsl(174deg 72% 91%) 65%,
+        hsl(186deg 79% 89%) 73%,
+        hsl(202deg 100% 89%) 81%,
+        hsl(222deg 100% 91%) 90%,
+        hsl(273deg 61% 89%) 100%
+      );
+    }
+  
+   
+  }
+  
   body {
-    @apply  text-foreground bg-gradient-to-r from-violet-100 via-fuchsia-200 to-violet-300 dark:bg-gradient-to-bl dark:from-gray-900 dark:via-purple-900 dark:to-violet-600;
+  
+    @apply  text-foreground  dark:bg-gradient-to-bl dark:from-gray-900 dark:via-[#300171fc] dark:to-slate-900;
   }
   .middleh1{
    @apply flex justify-center items-center min-h-screen w-screen font-sans text-9xl;
