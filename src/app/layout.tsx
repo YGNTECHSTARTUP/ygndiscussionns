@@ -36,7 +36,7 @@ export default function RootLayout({
             disableTransitionOnChange>
   <Navbar/>
   <div>
-  <LeftSidebar/>
+  {/* <LeftSidebar/> */}
   </div>
 
   {children}
