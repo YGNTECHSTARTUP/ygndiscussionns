@@ -22,6 +22,7 @@ module.exports = {
         mono: ['var(--font-geist-mono)'],
       },
       colors: {
+        regalpurple:"#a570eefc",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
