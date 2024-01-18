@@ -2,9 +2,9 @@ import React from 'react'
 
 const LeftSidebar = () => {
   return (
-    // eslint-disable-next-line tailwindcss/no-contradicting-classname
-    <div className='sticky left-0 top-0   hidden h-screen flex-1 flex-col bg-black  sm:block sm:w-[250px] md:w-[270px] lg:w-[300px] xl:w-[350px] 2xl:w-[400px]  '>
-    </div>
+    <section className='absolute left-0 top-16 z-40 h-screen w-1/12 bg-current opacity-5 max-sm:hidden lg:w-1/5 '>
+hello World
+    </section>
   )
 }
 

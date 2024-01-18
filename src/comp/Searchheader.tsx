@@ -12,7 +12,7 @@ const Searchheader = () => {
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
         </div>
-        <Input type="search" id="default-search" className="block  rounded-lg border-2 border-primary bg-muted p-4  ps-10 text-sm text-muted-foreground ring-2 ring-primary-foreground focus:border-primary focus:ring-primary" placeholder="Search..." required>
+        <Input type="search" id="default-search" className="block  rounded-lg border-2 border-regalpurple bg-muted p-4  ps-10 text-sm text-muted-foreground ring-2 focus:ring-regalpurple focus:border-regalpurple focus:ring-4 focus:ring-offset-2 " placeholder="Search..." required>
         </Input>
     </div>
 </form>
