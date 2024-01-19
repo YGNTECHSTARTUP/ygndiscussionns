@@ -31,7 +31,7 @@ export default function RootLayout({
   {children}
   </div>
    
-    <div className="lg:basis-[17%] lg:shrink max-lg:hidden">
+    <div className="max-lg:hidden lg:shrink lg:basis-[17%]">
     <RightSidebar/>
     </div>
 </div>

@@ -3,7 +3,7 @@
 export default function Home() {
   return (
     <>
-   <div className="flex justify-center items-center min-h-screen w-full text-9xl">
+   <div className="flex min-h-screen w-full items-center justify-center text-9xl ">
     Hello World
    </div>
     </>

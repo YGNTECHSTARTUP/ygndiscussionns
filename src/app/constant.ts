@@ -5,6 +5,33 @@ interface SidebarLink {
     label:string
     
 }
+interface Question {
+    id:number,
+    title:string
+}
+export const tags:string[] = ["nextjs","react","typescript","javascript","nodejs","expressjs","mongodb","mongoose","sequelize","mysql","postgresql","docker","kubernetes","aws","azure","gcp","firebase","git","github","gitlab","bitbucket"]
+export const questions:Question[] = [
+    {
+      id: 1,
+      title: "Best practices for data fetching in a Next.js application with Server-Side Rendering (SSR)?"
+    },
+    {
+      id:2,
+      title: "What is the difference between client-side routing and server-side routing?"
+    },
+    {
+      id:3,
+      title: "How to fetch data in React?"
+    },
+    {
+      id:4,
+      title: "How to fetch data in React using hooks?"
+    },
+    {
+        id:5,
+        title: "WHat is the difference between useEffect and useLayoutEffect?"
+    }
+  ]
 export const sidebarLinks: SidebarLink[] = [
 {
 imgURL: "../assets/icons/home.svg",
