@@ -27,7 +27,7 @@ const LeftSidebar = () => {
         href={link.route}>
           
        
-            <Button className={`${isActive ? " mx-auto my-3 flex w-[90%] flex-col bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-7  text-primary dark:bg-gradient-to-bl dark:from-gray-900 dark:via-[#300171fc] dark:to-slate-900 dark:text-fuchsia-100 " : " text-regalpurple  mx-auto my-4 flex w-[90%] flex-col  p-7     "}`} variant='ghost' >
+            <Button className={`${isActive ? " mx-auto my-3 flex w-[90%] flex-col bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-7  text-primary dark:bg-gradient-to-bl dark:from-gray-900 dark:via-[#300171fc] dark:to-slate-900 dark:text-fuchsia-100 " : " mx-auto  my-4 flex w-[90%] flex-col p-7  text-regalpurple  "}`} variant='ghost' >
             {
                 
                 link.label
