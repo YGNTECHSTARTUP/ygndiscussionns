@@ -13,7 +13,7 @@ import Logo from './Logo';
 const Navbar = () => {
   return (
   
-  <nav className='flex bg-primary-foreground justify-between  h-16 p-2 border-b-2   border-ring border-b-indigo-400 fixed z-50 w-full sm:px-12  '>
+  <nav className='flex bg-primary-foreground justify-between  h-16 p-2 border-2   border-ring border-indigo-400 fixed z-50 w-full sm:px-12  '>
     <ul className='flex justify-start ml-12'>
     <li className='p-2 opacity-100'>
     <Logo/>

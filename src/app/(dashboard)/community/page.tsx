@@ -3,10 +3,10 @@ import React from 'react'
 const Page = () => {
   return (
     <>
-  
-    <div className='middleh1'>
-        <h1 className='text-primary  '>Ygn</h1>
-    </div>
+   <div className="flex justify-center items-center min-h-screen w-full text-9xl">
+    Hello Bro
+   </div>
+ 
     </>
   )
 }
