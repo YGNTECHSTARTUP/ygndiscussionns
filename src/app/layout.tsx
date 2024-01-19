@@ -3,11 +3,11 @@ import type { Metadata } from 'next'
 import { GeistSans } from "geist/font/sans";
 import {GeistMono} from "geist/font/mono"
 import { ClerkProvider } from '@clerk/nextjs';
-import Navbar from '@/comp/Navbar';
+// import Navbar from '@/comp/Navbar';
 import React from 'react'
 import { ThemeProvider } from '@/components/Theme-Provider';
 import './globals.css'
-import LeftSidebar from '@/comp/LeftSidebar';
+// import LeftSidebar from '@/comp/LeftSidebar';
 
 
 
@@ -34,9 +34,9 @@ export default function RootLayout({
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange>
-  <Navbar/>
+  {/* <Navbar/> */}
   <div>
-  <LeftSidebar/>
+  {/* <LeftSidebar/> */}
   </div>
 
   {children}
