@@ -54,16 +54,11 @@ export default function RootLayout({
 
 <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
 
-<body className='overflow-hidden bg-background' >
+<body className=' bg-background' >
   <ThemeProvider  attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange>
-  {/* <Navbar/> */}
-  <div>
-  {/* <LeftSidebar/> */}
-  </div>
-
   {children}
   </ThemeProvider>
 
