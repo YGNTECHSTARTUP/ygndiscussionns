@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 import { GeistSans } from "geist/font/sans";
 import {GeistMono} from "geist/font/mono"
 import { ClerkProvider } from '@clerk/nextjs';
-import { dark, neobrutalism} from '@clerk/themes';
+import { dark, neobrutalism, shadesOfPurple} from '@clerk/themes';
 // import Navbar from '@/comp/Navbar';
 import React from 'react'
 import { ThemeProvider } from '@/components/Theme-Provider';
@@ -39,10 +39,17 @@ export default function RootLayout({
         formFieldLabel: "text-white font-sans text-lg  font-sans",
         dividerText: "text-white font-sans text-lg  font-sans",
         badge:"bg-indigo-500 text-white font-sans   font-sans",
-    
+    formFieldError: "text-red-500 font-sans text-lg  font-sans",
+    formFieldErrorIcon: "bg-red-500 text-white font-sans text-lg  font-sans",   
+    formFieldErrorText: "text-red-500 font-sans text-lg  font-sans",
+    formFieldHint: "text-regalpurple font-sans text-lg  font-sans",
+    formFieldHintIcon: "bg-white text-white font-sans text-lg  font-sans", 
+
+
     },
    
-    baseTheme:[dark,neobrutalism]
+    baseTheme:[neobrutalism,dark],
+    variables: { colorPrimary: "#a570eefc",colorDanger:'red',colorSuccess:'green',colorWarning:'yellow',colorBackground:'black' },
   }}>
 
 <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
