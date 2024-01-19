@@ -27,7 +27,7 @@ const Navcontent = () => {
         href={link.route}>
           
        
-            <Button className={`${isActive ? "flex  my-3 w-60 flex-col bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-4 text-primary dark:bg-gradient-to-bl dark:from-gray-900 dark:via-[#300171fc] dark:to-slate-900 dark:text-fuchsia-100 min-[442px]:w-72" : "my-3 w-60 flex-col p-4 dark:bg-primary-foreground  dark:text-fuchsia-100 min-[442px]:w-72"}`} variant='secondary' >
+            <Button className={`${isActive ? "my-3  flex w-60 flex-col bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400 p-4 text-primary dark:bg-gradient-to-bl dark:from-gray-900 dark:via-[#300171fc] dark:to-slate-900 dark:text-fuchsia-100 min-[442px]:w-72" : "my-3 w-60 flex-col p-4 dark:bg-primary-foreground  dark:text-fuchsia-100 min-[442px]:w-72"}`} variant='secondary' >
             {
                 
                 link.label
