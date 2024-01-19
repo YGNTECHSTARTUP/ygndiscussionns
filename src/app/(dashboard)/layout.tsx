@@ -1,5 +1,6 @@
 import LeftSidebar from "@/comp/LeftSidebar"
 import Navbar from "@/comp/Navbar"
+import RightSidebar from "@/comp/RightSidebar"
 import { ThemeProvider } from "@/components/Theme-Provider"
 import { GeistMono } from "geist/font/mono"
 import { GeistSans } from "geist/font/sans"
@@ -16,17 +17,26 @@ export default function RootLayout({
   
   <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
   
-  <body className='overflow-hidden bg-background' >
+  <body>
     <ThemeProvider  attribute="class"
               defaultTheme="system"
               enableSystem
               disableTransitionOnChange>
     <Navbar/>
-    <div>
+<div className="flex   " >
+<div className="basis-[14%]">
     <LeftSidebar/>
     </div>
-  
-    {children}
+  <div className="grow">
+  {children}
+  </div>
+   
+    <div className="lg:basis-[17%] lg:shrink max-lg:hidden">
+    <RightSidebar/>
+    </div>
+</div>
+    
+   
     </ThemeProvider>
   
     </body>
