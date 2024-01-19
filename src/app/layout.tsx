@@ -3,10 +3,12 @@ import type { Metadata } from 'next'
 import { GeistSans } from "geist/font/sans";
 import {GeistMono} from "geist/font/mono"
 import { ClerkProvider } from '@clerk/nextjs';
+import { dark, neobrutalism} from '@clerk/themes';
 // import Navbar from '@/comp/Navbar';
 import React from 'react'
 import { ThemeProvider } from '@/components/Theme-Provider';
 import './globals.css'
+// import Navbar from '@/comp/Navbar';
 // import LeftSidebar from '@/comp/LeftSidebar';
 
 
@@ -25,7 +27,23 @@ export default function RootLayout({
 }) {
   return (
    
-  <ClerkProvider>
+  <ClerkProvider  appearance={{
+    elements: {
+      formButtonPrimary:
+        "bg-[#300171fc] hover:bg-purple-900 font-sans text-lg ",
+        headerSubtitle: "text-white font-sans text-lg  font-sans",
+        headerTitle: "text-regalpurple font-sans text-xl  font-sans",
+        formFieldAction: "text-regalpurple font-sans text-lg  font-sans hover:text-regalpurple hover:underline",
+        footerActionLink: "text-regalpurple font-sans text-sm  font-sans hover:text-regalpurple hover:underline",
+        footerActionText: "text-white font-sans text-sm  font-sans hover:text-regalpurple ",
+        formFieldLabel: "text-white font-sans text-lg  font-sans",
+        dividerText: "text-white font-sans text-lg  font-sans",
+        badge:"bg-indigo-500 text-white font-sans   font-sans",
+    
+    },
+   
+    baseTheme:[dark,neobrutalism]
+  }}>
 
 <html lang="en " className={`${GeistSans.variable} ${GeistMono.variable}`}>
 

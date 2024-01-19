@@ -6,11 +6,14 @@
   * {
     @apply border-border;
   }
+  
   /* body{
     bg-gradient-to-b from-gray-300 via-[#d0bdebfc] to-gray-400
   } */
 
   @layer components {
+   
+    
     body {
       background-image: linear-gradient(
         235deg,
@@ -44,6 +47,7 @@
    @apply flex justify-center items-center min-h-screen w-screen font-sans text-9xl;
   
   }
+  
   
 @layer base {
   :root {

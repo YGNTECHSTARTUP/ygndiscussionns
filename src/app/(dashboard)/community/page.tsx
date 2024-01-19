@@ -5,7 +5,7 @@ const Page = () => {
     <>
   
     <div className='middleh1'>
-        <h1 className='text-primary '>Ygn</h1>
+        <h1 className='text-primary  '>Ygn</h1>
     </div>
     </>
   )
