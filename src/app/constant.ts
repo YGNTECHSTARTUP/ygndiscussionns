@@ -9,6 +9,14 @@ interface Question {
     id:number,
     title:string
 }
+export const clerkcredentials:string[] = [
+  "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cmVmaW5lZC1naXJhZmZlLTcxLmNsZXJrLmFjY291bnRzLmRldiQ",
+"CLERK_SECRET_KEY=sk_test_UfCAqNJxO4qmYS2gvdeLqLNljPNe9ZsgKo8pcGQgmV",
+"NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in",
+"NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up",
+"NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/",
+"NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/",
+]
 export const tags:string[] = ["nextjs","react","typescript","javascript","nodejs","expressjs","mongodb","mongoose","sequelize","mysql","postgresql","docker","kubernetes","aws","azure","gcp","firebase","git","github","gitlab","bitbucket"]
 export const questions:Question[] = [
     {
